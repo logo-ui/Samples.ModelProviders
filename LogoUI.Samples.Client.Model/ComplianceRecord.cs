@@ -3,7 +3,7 @@ using System.Net;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
 using LogoUI.Samples.Client.Model.Contracts.UserManagement;
 
-namespace LogoUI.Samples.Client.Model.Shared
+namespace LogoUI.Samples.Client.Model
 {
     public sealed class ComplianceRecord : IComplianceRecord
     {
