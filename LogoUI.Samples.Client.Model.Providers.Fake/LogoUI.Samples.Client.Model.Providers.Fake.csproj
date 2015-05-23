@@ -72,10 +72,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Data.Contracts\LogoUI.Samples.Client.Data.Contracts.csproj">
-      <Project>{7ADCF510-CE38-4BE1-8654-937D3D739E30}</Project>
-      <Name>LogoUI.Samples.Client.Data.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Contracts\LogoUI.Samples.Client.Model.Contracts.csproj">
       <Project>{23BE14F7-5115-46A2-872F-DAD1E47B1E9A}</Project>
       <Name>LogoUI.Samples.Client.Model.Contracts</Name>
