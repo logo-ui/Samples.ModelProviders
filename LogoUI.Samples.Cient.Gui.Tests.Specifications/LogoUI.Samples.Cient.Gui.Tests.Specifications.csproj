@@ -160,10 +160,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Data.Providers.Contracts\LogoUI.Samples.Client.Data.Providers.Contracts.csproj">
-      <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
-      <Name>LogoUI.Samples.Client.Data.Providers.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Modularity\LogoUI.Samples.Client.Gui.Modularity.csproj">
       <Project>{B4CAD13A-CF4C-4C59-A1D1-7E9A6CE0E745}</Project>
       <Name>LogoUI.Samples.Client.Gui.Modularity</Name>
@@ -191,6 +187,10 @@
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Contracts\LogoUI.Samples.Client.Model.Contracts.csproj">
       <Project>{23BE14F7-5115-46A2-872F-DAD1E47B1E9A}</Project>
       <Name>LogoUI.Samples.Client.Model.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">
+      <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
+      <Name>LogoUI.Samples.Client.Model.Providers.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Shared\LogoUI.Samples.Client.Model.Shared.csproj">
       <Project>{48258CD5-142E-44BE-A4D3-5B477CF3FFD9}</Project>
