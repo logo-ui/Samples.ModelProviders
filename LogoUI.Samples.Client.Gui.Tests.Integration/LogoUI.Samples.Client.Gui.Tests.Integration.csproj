@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C3F7109-8D52-4067-961B-258B2F86EBDA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LogoUI.Samples.Gui.Tests.Integration</RootNamespace>
+    <AssemblyName>LogoUI.Samples.Gui.Tests.Integration</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Bin\Tests\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Attest.Fake.Builders">
+      <HintPath>..\Lib\Attest\Attest.Fake.Builders.dll</HintPath>
+    </Reference>
+    <Reference Include="Attest.Fake.Core">
+      <HintPath>..\Lib\Attest\Attest.Fake.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Attest.Fake.Moq, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Attest\Attest.Fake.Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="Attest.Tests.Core">
+      <HintPath>..\Lib\Attest\Attest.Tests.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Attest.Tests.NUnit">
+      <HintPath>..\Lib\Attest\Attest.Tests.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro">
+      <HintPath>..\packages\Caliburn.Micro.Core.2.0.2\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform">
+      <HintPath>..\packages\Caliburn.Micro.2.0.2\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="CodeContracts">
+      <HintPath>..\Lib\CodeContracts.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Bootstraping.Contracts">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Bootstraping.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Bootstrapping">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Bootstrapping.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Bootstrapping.SimpleContainer">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Bootstrapping.SimpleContainer.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Modularity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Modularity.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Navigation">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.Tests.NUnit">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.Tests.NUnit.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.ViewModels">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.ViewModels.dll</HintPath>
+    </Reference>
+    <Reference Include="LogoFX.UI.ViewModels.Interfaces">
+      <HintPath>..\Lib\LogoFX\LogoFX.UI.ViewModels.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Moq">
+      <HintPath>..\packages\Moq.4.2.1502.0911\lib\net40\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.Composition">
+      <HintPath>..\Lib\Solid\Solid.Practices.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.Composition.Desktop">
+      <HintPath>..\Lib\Solid\Solid.Practices.Composition.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.IoC">
+      <HintPath>..\Lib\Solid\Solid.Practices.IoC.dll</HintPath>
+    </Reference>
+    <Reference Include="Solid.Practices.Modularity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\Solid\Solid.Practices.Modularity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ComplianceLoadingTests.cs" />
+    <Compile Include="IntegrationTestsBaseWithActivation.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ShellLoadingTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Data.Providers.Contracts\LogoUI.Samples.Client.Data.Providers.Contracts.csproj">
+      <Project>{47bd9f45-48cc-46d2-9f02-2451a67be8e7}</Project>
+      <Name>LogoUI.Samples.Client.Data.Providers.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Modularity\LogoUI.Samples.Client.Gui.Modularity.csproj">
+      <Project>{B4CAD13A-CF4C-4C59-A1D1-7E9A6CE0E745}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Modularity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Modules.Compliance\LogoUI.Samples.Client.Gui.Modules.Compliance.csproj">
+      <Project>{90B5349D-F98A-48BB-A9E6-56DF97CA2C5A}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Modules.Compliance</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Shared\LogoUI.Samples.Client.Gui.Shared.csproj">
+      <Project>{86BCD015-0BC9-4374-B5A9-D70E0B88265F}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Shell\LogoUI.Samples.Client.Gui.Shell.csproj">
+      <Project>{70e2ad73-ddf2-4ab2-9951-00f127db3ca0}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Shell</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Tests.Fake\LogoUI.Samples.Client.Gui.Tests.Fake.csproj">
+      <Project>{715218A0-50F6-4D8E-AEEA-7ED90C5C1F58}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Tests.Fake</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Tests.Shared\LogoUI.Samples.Client.Gui.Tests.Shared.csproj">
+      <Project>{82e1e02d-dfe6-4465-bfdf-175acc44650b}</Project>
+      <Name>LogoUI.Samples.Client.Gui.Tests.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Fake.Builders\LogoUI.Samples.Fake.Builders.csproj">
+      <Project>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</Project>
+      <Name>LogoUI.Samples.Fake.Builders</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
