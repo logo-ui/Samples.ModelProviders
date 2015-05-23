@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using LogoUI.Samples.Client.Data.Contracts;
+using LogoUI.Samples.Client.Model.Contracts.Compliance;
 
-namespace LogoUI.Samples.Client.Data.Providers.Contracts
+namespace LogoUI.Samples.Client.Model.Providers.Contracts
 {
     public interface IComplianceProvider
     {
-        IEnumerable<ComplianceRecordDto> GetComplianceRecords(DateTime? startTime, DateTime? endTime);
+        IEnumerable<IComplianceRecord> GetComplianceRecords(DateTime? startTime, DateTime? endTime);
     }
 }

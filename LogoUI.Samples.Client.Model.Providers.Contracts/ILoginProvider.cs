@@ -1,4 +1,4 @@
-﻿namespace LogoUI.Samples.Client.Data.Providers.Contracts
+﻿namespace LogoUI.Samples.Client.Model.Providers.Contracts
 {
     public interface ILoginProvider
     {

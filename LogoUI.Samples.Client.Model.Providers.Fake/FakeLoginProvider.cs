@@ -1,7 +1,7 @@
 ﻿using System.Security;
-using LogoUI.Samples.Client.Data.Providers.Contracts;
+using LogoUI.Samples.Client.Model.Providers.Contracts;
 
-namespace LogoUI.Samples.Client.Data.Providers.Fake
+namespace LogoUI.Samples.Client.Model.Providers.Fake
 {
     class FakeLoginProvider : ILoginProvider
     {

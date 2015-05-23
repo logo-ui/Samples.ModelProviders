@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.Composition;
 using LogoFX.UI.Bootstrapping.SimpleContainer;
-using LogoUI.Samples.Client.Data.Providers.Contracts;
+using LogoUI.Samples.Client.Model.Providers.Contracts;
 using Solid.Practices.Modularity;
 
-namespace LogoUI.Samples.Client.Data.Providers.Fake
+namespace LogoUI.Samples.Client.Model.Providers.Fake
 {
     [Export(typeof(ICompositionModule))]
     public class Module : ICompositionModule<ExtendedSimpleIocContainer>

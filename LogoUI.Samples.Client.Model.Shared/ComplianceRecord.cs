@@ -5,7 +5,7 @@ using LogoUI.Samples.Client.Model.Contracts.UserManagement;
 
 namespace LogoUI.Samples.Client.Model.Shared
 {
-    sealed class ComplianceRecord : IComplianceRecord
+    public sealed class ComplianceRecord : IComplianceRecord
     {
         public DateTime LastDate { get; set; }
         public string Host { get; set; }

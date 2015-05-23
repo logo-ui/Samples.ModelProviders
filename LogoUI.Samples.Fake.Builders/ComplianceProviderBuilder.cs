@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using Attest.Fake.Builders;
 using Attest.Fake.Moq;
 using LogoUI.Samples.Client.Data.Contracts;
-using LogoUI.Samples.Client.Data.Providers.Contracts;
+using LogoUI.Samples.Client.Model.Contracts.Compliance;
+using LogoUI.Samples.Client.Model.Mappers;
+using LogoUI.Samples.Client.Model.Providers.Contracts;
 
 namespace LogoUI.Samples.Fake.Builders
 {
@@ -24,7 +26,7 @@ namespace LogoUI.Samples.Fake.Builders
             "Google Talk",
         };
 
-        Random _random = new Random();
+        readonly Random _random = new Random();
 
         private int _complianceRecordCount;
 
@@ -56,7 +58,7 @@ namespace LogoUI.Samples.Fake.Builders
                 GenerateComplianceRecords());
         }
 
-        private IEnumerable<ComplianceRecordDto> GenerateComplianceRecords()
+        private IEnumerable<IComplianceRecord> GenerateComplianceRecords()
         {
             for (int i = 0; i < _complianceRecordCount; i++)
             {
@@ -64,7 +66,7 @@ namespace LogoUI.Samples.Fake.Builders
             }
         }
 
-        private static ComplianceRecordDto GenerateComplianceRecord(Random rnd, int index)
+        private static IComplianceRecord GenerateComplianceRecord(Random rnd, int index)
         {
             byte hostIndex = (byte)rnd.Next(1, 4);
 
@@ -78,7 +80,7 @@ namespace LogoUI.Samples.Fake.Builders
                 Information = "Record N " + (index + 1)
             };
 
-            return result;
+            return ComplianceRecordMapper.ToComplianceRecord(result);
         }
     }
 }

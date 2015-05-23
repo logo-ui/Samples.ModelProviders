@@ -7,8 +7,8 @@
     <ProjectGuid>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogoUI.Samples.Client.Data.Providers.Contracts</RootNamespace>
-    <AssemblyName>LogoUI.Samples.Client.Data.Providers.Contracts</AssemblyName>
+    <RootNamespace>LogoUI.Samples.Client.Model.Providers.Contracts</RootNamespace>
+    <AssemblyName>LogoUI.Samples.Client.Model.Providers.Contracts</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -48,9 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Data.Contracts\LogoUI.Samples.Client.Data.Contracts.csproj">
-      <Project>{7adcf510-ce38-4be1-8654-937d3d739e30}</Project>
-      <Name>LogoUI.Samples.Client.Data.Contracts</Name>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Model.Contracts\LogoUI.Samples.Client.Model.Contracts.csproj">
+      <Project>{23BE14F7-5115-46A2-872F-DAD1E47B1E9A}</Project>
+      <Name>LogoUI.Samples.Client.Model.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

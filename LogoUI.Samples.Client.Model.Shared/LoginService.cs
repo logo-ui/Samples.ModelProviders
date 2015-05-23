@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
-using LogoUI.Samples.Client.Data.Providers.Contracts;
 using LogoUI.Samples.Client.Model.Contracts;
+using LogoUI.Samples.Client.Model.Providers.Contracts;
 using LogoUI.Samples.Client.Model.Shared.UserManagement;
 using Solid.Practices.Scheduling;
 

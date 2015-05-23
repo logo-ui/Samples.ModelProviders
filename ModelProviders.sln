@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoUI.Samples.Client.Model
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoUI.Samples.Client.Model.Providers.Real", "LogoUI.Samples.Client.Model.Providers.Real\LogoUI.Samples.Client.Model.Providers.Real.csproj", "{6C56DA4B-0426-489C-845C-57B1C0AD51A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogoUI.Samples.Client.Model.Mappers", "LogoUI.Samples.Client.Model.Mappers\LogoUI.Samples.Client.Model.Mappers.csproj", "{C33E6E47-275E-4A82-B686-7CA663D47D09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -226,6 +228,16 @@ Global
 		{6C56DA4B-0426-489C-845C-57B1C0AD51A5}.DebugWithReal|Any CPU.Build.0 = DebugWithReal|Any CPU
 		{6C56DA4B-0426-489C-845C-57B1C0AD51A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C56DA4B-0426-489C-845C-57B1C0AD51A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithFake|Any CPU.ActiveCfg = DebugWithFake|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithFake|Any CPU.Build.0 = DebugWithFake|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithMock|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithMock|Any CPU.Build.0 = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithReal|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.DebugWithReal|Any CPU.Build.0 = Debug|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33E6E47-275E-4A82-B686-7CA663D47D09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,5 +265,6 @@ Global
 		{47BD9F45-48CC-46D2-9F02-2451A67BE8E7} = {1EAEA804-9B78-4EF6-8D4F-3B6D3FA398D8}
 		{553749EC-1D43-4640-BC99-D74595D61E0A} = {1EAEA804-9B78-4EF6-8D4F-3B6D3FA398D8}
 		{6C56DA4B-0426-489C-845C-57B1C0AD51A5} = {1EAEA804-9B78-4EF6-8D4F-3B6D3FA398D8}
+		{C33E6E47-275E-4A82-B686-7CA663D47D09} = {1EAEA804-9B78-4EF6-8D4F-3B6D3FA398D8}
 	EndGlobalSection
 EndGlobal
