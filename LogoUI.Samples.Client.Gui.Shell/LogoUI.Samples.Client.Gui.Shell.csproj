@@ -66,9 +66,6 @@
     <Reference Include="CodeContracts">
       <HintPath>..\Lib\CodeContracts.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.Core">
-      <HintPath>..\Lib\LogoFX\LogoFX.Core.dll</HintPath>
-    </Reference>
     <Reference Include="LogoFX.Practices.IoC">
       <HintPath>..\Lib\LogoFX\LogoFX.Practices.IoC.dll</HintPath>
     </Reference>
@@ -97,12 +94,6 @@
     </Reference>
     <Reference Include="LogoFX.UI.Navigation">
       <HintPath>..\Lib\LogoFX\LogoFX.UI.Navigation.dll</HintPath>
-    </Reference>
-    <Reference Include="LogoFX.UI.ViewModels">
-      <HintPath>..\Lib\LogoFX\LogoFX.UI.ViewModels.dll</HintPath>
-    </Reference>
-    <Reference Include="LogoFX.UI.ViewModels.Interfaces">
-      <HintPath>..\Lib\LogoFX\LogoFX.UI.ViewModels.Interfaces.dll</HintPath>
     </Reference>
     <Reference Include="LogoFX.UI.Views.Infra">
       <HintPath>..\Lib\LogoFX\LogoFX.UI.Views.Infra.dll</HintPath>

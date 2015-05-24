@@ -70,9 +70,6 @@
     <Reference Include="LogoFX.UI.Navigation">
       <HintPath>..\Lib\LogoFX\LogoFX.UI.Navigation.dll</HintPath>
     </Reference>
-    <Reference Include="LogoFX.UI.Tests.Infra">
-      <HintPath>..\Lib\LogoFX\LogoFX.UI.Tests.Infra.dll</HintPath>
-    </Reference>
     <Reference Include="LogoFX.UI.Tests.Specflow">
       <HintPath>..\Lib\LogoFX\LogoFX.UI.Tests.Specflow.dll</HintPath>
     </Reference>
@@ -97,9 +94,6 @@
     <Reference Include="Solid.Practices.Modularity, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\Lib\Solid\Solid.Practices.Modularity.dll</HintPath>
-    </Reference>
-    <Reference Include="Solid.Practices.Scheduling">
-      <HintPath>..\Lib\Solid\Solid.Practices.Scheduling.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
