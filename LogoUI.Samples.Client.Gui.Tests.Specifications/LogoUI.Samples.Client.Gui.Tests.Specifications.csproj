@@ -7,8 +7,8 @@
     <ProjectGuid>{F27306C4-B889-4FE4-A726-F51A714BD514}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogoUI.Samples.Cient.Gui.Tests.Specifications</RootNamespace>
-    <AssemblyName>LogoUI.Samples.Cient.Gui.Tests.Specifications</AssemblyName>
+    <RootNamespace>LogoUI.Samples.Client.Gui.Tests.Specifications</RootNamespace>
+    <AssemblyName>LogoUI.Samples.Client.Gui.Tests.Specifications</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -190,7 +190,7 @@
       <Project>{48258CD5-142E-44BE-A4D3-5B477CF3FFD9}</Project>
       <Name>LogoUI.Samples.Client.Model.Shared</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Fake.Builders\LogoUI.Samples.Fake.Builders.csproj">
+    <ProjectReference Include="..\LogoUI.Samples.Client.Builders\LogoUI.Samples.Client.Builders.csproj">
       <Project>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</Project>
       <Name>LogoUI.Samples.Fake.Builders</Name>
     </ProjectReference>

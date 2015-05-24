@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Threading;
 using Attest.Fake.Builders;
+using LogoUI.Samples.Client.Builders;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
 using LogoUI.Samples.Client.Model.Providers.Contracts;
-using LogoUI.Samples.Fake.Builders;
 
 namespace LogoUI.Samples.Client.Model.Providers.Fake
 {

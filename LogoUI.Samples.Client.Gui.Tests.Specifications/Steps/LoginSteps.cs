@@ -8,7 +8,7 @@ using LogoUI.Samples.Gui.Tests.Shared;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Cient.Gui.Tests.Specifications.Steps
+namespace LogoUI.Samples.Client.Gui.Tests.Specifications.Steps
 {    
     [Binding]
     class LoginSteps : StepsBase<FakeFactory>

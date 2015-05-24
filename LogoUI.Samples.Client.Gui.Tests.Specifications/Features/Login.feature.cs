@@ -11,7 +11,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace LogoUI.Samples.Cient.Gui.Tests.Specifications.Features
+namespace LogoUI.Samples.Client.Gui.Tests.Specifications.Features
 {
     using TechTalk.SpecFlow;
     

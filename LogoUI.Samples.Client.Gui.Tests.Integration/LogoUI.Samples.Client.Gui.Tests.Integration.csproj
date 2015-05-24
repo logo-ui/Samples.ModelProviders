@@ -116,6 +116,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Builders\LogoUI.Samples.Client.Builders.csproj">
+      <Project>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</Project>
+      <Name>LogoUI.Samples.Client.Builders</Name>
+    </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Gui.Modularity\LogoUI.Samples.Client.Gui.Modularity.csproj">
       <Project>{B4CAD13A-CF4C-4C59-A1D1-7E9A6CE0E745}</Project>
       <Name>LogoUI.Samples.Client.Gui.Modularity</Name>
@@ -143,10 +147,6 @@
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">
       <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
       <Name>LogoUI.Samples.Client.Model.Providers.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Fake.Builders\LogoUI.Samples.Fake.Builders.csproj">
-      <Project>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</Project>
-      <Name>LogoUI.Samples.Fake.Builders</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

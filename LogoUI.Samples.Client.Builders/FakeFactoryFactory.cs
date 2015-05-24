@@ -1,7 +1,7 @@
 ﻿using Attest.Fake.Core;
 using Attest.Fake.Moq;
 
-namespace LogoUI.Samples.Fake.Builders
+namespace LogoUI.Samples.Client.Builders
 {
     class FakeFactoryFactory
     {

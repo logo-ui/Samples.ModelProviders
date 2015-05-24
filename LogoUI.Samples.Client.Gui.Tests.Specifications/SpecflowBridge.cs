@@ -1,6 +1,6 @@
 ﻿using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Cient.Gui.Tests.Specifications
+namespace LogoUI.Samples.Client.Gui.Tests.Specifications
 {    
     [Binding]
     class SpecflowBridge : IntegrationTestsBase

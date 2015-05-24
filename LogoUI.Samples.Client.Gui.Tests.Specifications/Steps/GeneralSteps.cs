@@ -3,7 +3,7 @@ using Caliburn.Micro;
 using LogoUI.Samples.Gui.Tests.Shared;
 using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Cient.Gui.Tests.Specifications.Steps
+namespace LogoUI.Samples.Client.Gui.Tests.Specifications.Steps
 {
     [Binding]
     class GeneralSteps

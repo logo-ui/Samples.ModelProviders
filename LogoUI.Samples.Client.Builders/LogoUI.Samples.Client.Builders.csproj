@@ -7,8 +7,8 @@
     <ProjectGuid>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogoUI.Samples.Fake.Builders</RootNamespace>
-    <AssemblyName>LogoUI.Samples.Fake.Builders</AssemblyName>
+    <RootNamespace>LogoUI.Samples.Client.Builders</RootNamespace>
+    <AssemblyName>LogoUI.Samples.Client.Builders</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -69,7 +69,7 @@
       <Name>LogoUI.Samples.Client.Model.Contracts</Name>
     </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Mappers\LogoUI.Samples.Client.Model.Mappers.csproj">
-      <Project>{C33E6E47-275E-4A82-B686-7CA663D47D09}</Project>
+      <Project>{c33e6e47-275e-4a82-b686-7ca663d47d09}</Project>
       <Name>LogoUI.Samples.Client.Model.Mappers</Name>
     </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">

@@ -7,7 +7,7 @@ using LogoUI.Samples.Client.Model.Contracts.Compliance;
 using LogoUI.Samples.Client.Model.Mappers;
 using LogoUI.Samples.Client.Model.Providers.Contracts;
 
-namespace LogoUI.Samples.Fake.Builders
+namespace LogoUI.Samples.Client.Builders
 {
     public class ComplianceProviderBuilder : FakeBuilderBase<IComplianceProvider>
     {

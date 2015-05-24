@@ -1,15 +1,15 @@
 ﻿using System.Linq;
 using Attest.Fake.Moq;
 using Attest.Tests.Specflow;
+using LogoUI.Samples.Client.Builders;
 using LogoUI.Samples.Client.Gui.Modularity.ViewModels;
 using LogoUI.Samples.Client.Gui.Modules.Compliance.ViewModels;
 using LogoUI.Samples.Client.Gui.Shell.ViewModels;
-using LogoUI.Samples.Fake.Builders;
 using LogoUI.Samples.Gui.Tests.Shared;
 using NUnit.Framework;
 using TechTalk.SpecFlow;
 
-namespace LogoUI.Samples.Cient.Gui.Tests.Specifications.Steps
+namespace LogoUI.Samples.Client.Gui.Tests.Specifications.Steps
 {
     [Binding]
     class ComplianceSteps : StepsBase<FakeFactory>
