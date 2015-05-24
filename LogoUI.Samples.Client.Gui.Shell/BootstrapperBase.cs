@@ -6,8 +6,8 @@ using LogoFX.UI.Navigation;
 using LogoUI.Samples.Client.Gui.Modularity.Contracts;
 using LogoUI.Samples.Client.Gui.Shared.UiServices;
 using LogoUI.Samples.Client.Gui.Shell.ViewModels;
+using LogoUI.Samples.Client.Model;
 using LogoUI.Samples.Client.Model.Contracts;
-using LogoUI.Samples.Client.Model.Shared;
 
 namespace LogoUI.Samples.Client.Gui.Shell
 {

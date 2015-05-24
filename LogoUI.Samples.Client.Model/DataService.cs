@@ -6,7 +6,7 @@ using LogoUI.Samples.Client.Model.Contracts.Compliance;
 using LogoUI.Samples.Client.Model.Providers.Contracts;
 using Solid.Practices.Scheduling;
 
-namespace LogoUI.Samples.Client.Model.Shared
+namespace LogoUI.Samples.Client.Model
 {
     public class DataService : IDataService
     {

@@ -2,10 +2,11 @@
 using System.Threading.Tasks;
 using LogoUI.Samples.Client.Model.Contracts;
 using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Model.Shared;
 using LogoUI.Samples.Client.Model.UserManagement;
 using Solid.Practices.Scheduling;
 
-namespace LogoUI.Samples.Client.Model.Shared
+namespace LogoUI.Samples.Client.Model
 {
     public class LoginService : ILoginService
     {

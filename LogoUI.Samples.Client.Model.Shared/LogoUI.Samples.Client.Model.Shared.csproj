@@ -39,26 +39,15 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="LogoFX.UI.Core">
-      <HintPath>..\Lib\LogoFX\LogoFX.UI.Core.dll</HintPath>
-    </Reference>
-    <Reference Include="LogoFX.UI.Model">
-      <HintPath>..\Lib\LogoFX\LogoFX.UI.Model.dll</HintPath>
-    </Reference>
     <Reference Include="LogoFX.UI.Model.Contracts">
       <HintPath>..\Lib\LogoFX\LogoFX.UI.Model.Contracts.dll</HintPath>
-    </Reference>
-    <Reference Include="Solid.Practices.Scheduling">
-      <HintPath>..\LogoUI.Samples.Client.Gui.Shared\Bin\Debug\Solid.Practices.Scheduling.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataService.cs" />
     <Compile Include="DefaultIdentityProvider.cs" />
     <Compile Include="IdentityContext.cs" />
-    <Compile Include="LoginService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserContext.cs" />
   </ItemGroup>
@@ -66,14 +55,6 @@
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Contracts\LogoUI.Samples.Client.Model.Contracts.csproj">
       <Project>{23BE14F7-5115-46A2-872F-DAD1E47B1E9A}</Project>
       <Name>LogoUI.Samples.Client.Model.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">
-      <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
-      <Name>LogoUI.Samples.Client.Model.Providers.Contracts</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Model\LogoUI.Samples.Client.Model.csproj">
-      <Project>{D3897C4F-4C58-43B5-9B37-AE9C42CE7D21}</Project>
-      <Name>LogoUI.Samples.Client.Model</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

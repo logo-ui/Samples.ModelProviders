@@ -238,6 +238,10 @@
       <Project>{48258cd5-142e-44be-a4d3-5b477cf3ffd9}</Project>
       <Name>LogoUI.Samples.Client.Model.Shared</Name>
     </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Model\LogoUI.Samples.Client.Model.csproj">
+      <Project>{D3897C4F-4C58-43B5-9B37-AE9C42CE7D21}</Project>
+      <Name>LogoUI.Samples.Client.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">
