@@ -4,7 +4,7 @@ using LogoUI.Samples.Client.Gui.Modularity.ViewModels;
 using LogoUI.Samples.Client.Gui.Modules.Compliance.ViewModels;
 using LogoUI.Samples.Client.Gui.Shell.ViewModels;
 using LogoUI.Samples.Client.Gui.Tests.Fake;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Providers.Contracts;
 using NUnit.Framework;
 
 namespace LogoUI.Samples.Gui.Tests.Integration

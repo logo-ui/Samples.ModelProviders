@@ -3,7 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using LogoUI.Samples.Client.Model.Contracts;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Providers.Contracts;
 using Solid.Practices.Scheduling;
 
 namespace LogoUI.Samples.Client.Model

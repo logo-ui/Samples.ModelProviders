@@ -5,7 +5,7 @@ using Attest.Fake.Moq;
 using LogoUI.Samples.Client.Data.Contracts;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
 using LogoUI.Samples.Client.Model.Mappers;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Providers.Contracts;
 
 namespace LogoUI.Samples.Client.Builders
 {

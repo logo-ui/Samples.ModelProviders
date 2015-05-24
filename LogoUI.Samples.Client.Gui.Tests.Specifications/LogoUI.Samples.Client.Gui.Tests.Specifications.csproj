@@ -182,17 +182,17 @@
       <Project>{23BE14F7-5115-46A2-872F-DAD1E47B1E9A}</Project>
       <Name>LogoUI.Samples.Client.Model.Contracts</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">
-      <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
-      <Name>LogoUI.Samples.Client.Model.Providers.Contracts</Name>
-    </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Model.Shared\LogoUI.Samples.Client.Model.Shared.csproj">
       <Project>{48258CD5-142E-44BE-A4D3-5B477CF3FFD9}</Project>
       <Name>LogoUI.Samples.Client.Model.Shared</Name>
     </ProjectReference>
     <ProjectReference Include="..\LogoUI.Samples.Client.Builders\LogoUI.Samples.Client.Builders.csproj">
       <Project>{2C93C09C-99DE-4C24-9BB3-EC72C542B0F7}</Project>
-      <Name>LogoUI.Samples.Fake.Builders</Name>
+      <Name>LogoUI.Samples.Client.Builders</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LogoUI.Samples.Client.Providers.Contracts\LogoUI.Samples.Client.Providers.Contracts.csproj">
+      <Project>{47bd9f45-48cc-46d2-9f02-2451a67be8e7}</Project>
+      <Name>LogoUI.Samples.Client.Providers.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

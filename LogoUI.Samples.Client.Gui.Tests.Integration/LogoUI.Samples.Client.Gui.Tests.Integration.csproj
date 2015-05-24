@@ -144,9 +144,9 @@
       <Project>{82e1e02d-dfe6-4465-bfdf-175acc44650b}</Project>
       <Name>LogoUI.Samples.Client.Gui.Tests.Shared</Name>
     </ProjectReference>
-    <ProjectReference Include="..\LogoUI.Samples.Client.Model.Providers.Contracts\LogoUI.Samples.Client.Model.Providers.Contracts.csproj">
+    <ProjectReference Include="..\LogoUI.Samples.Client.Providers.Contracts\LogoUI.Samples.Client.Providers.Contracts.csproj">
       <Project>{47BD9F45-48CC-46D2-9F02-2451A67BE8E7}</Project>
-      <Name>LogoUI.Samples.Client.Model.Providers.Contracts</Name>
+      <Name>LogoUI.Samples.Client.Providers.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

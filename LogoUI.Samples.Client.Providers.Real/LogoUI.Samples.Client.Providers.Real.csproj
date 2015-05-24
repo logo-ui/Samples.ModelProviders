@@ -7,8 +7,8 @@
     <ProjectGuid>{6C56DA4B-0426-489C-845C-57B1C0AD51A5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LogoUI.Samples.Client.Model.Providers.Real</RootNamespace>
-    <AssemblyName>LogoUI.Samples.Client.Model.Providers.Real</AssemblyName>
+    <RootNamespace>LogoUI.Samples.Client.Providers.Real</RootNamespace>
+    <AssemblyName>LogoUI.Samples.Client.Providers.Real</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

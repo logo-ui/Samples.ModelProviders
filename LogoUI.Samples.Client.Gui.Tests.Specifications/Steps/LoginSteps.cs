@@ -2,8 +2,8 @@
 using Attest.Tests.Specflow;
 using LogoUI.Samples.Client.Gui.Shell.ViewModels;
 using LogoUI.Samples.Client.Gui.Tests.Fake;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
 using LogoUI.Samples.Client.Model.Shared;
+using LogoUI.Samples.Client.Providers.Contracts;
 using LogoUI.Samples.Gui.Tests.Shared;
 using NUnit.Framework;
 using TechTalk.SpecFlow;

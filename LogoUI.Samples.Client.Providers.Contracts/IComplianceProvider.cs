@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
 
-namespace LogoUI.Samples.Client.Model.Providers.Contracts
+namespace LogoUI.Samples.Client.Providers.Contracts
 {
     public interface IComplianceProvider
     {

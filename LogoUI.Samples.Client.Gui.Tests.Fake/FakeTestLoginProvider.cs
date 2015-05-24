@@ -1,5 +1,5 @@
 ﻿using System.Security;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Providers.Contracts;
 
 namespace LogoUI.Samples.Client.Gui.Tests.Fake
 {

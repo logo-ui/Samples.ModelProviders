@@ -4,9 +4,9 @@ using System.Threading;
 using Attest.Fake.Builders;
 using LogoUI.Samples.Client.Builders;
 using LogoUI.Samples.Client.Model.Contracts.Compliance;
-using LogoUI.Samples.Client.Model.Providers.Contracts;
+using LogoUI.Samples.Client.Providers.Contracts;
 
-namespace LogoUI.Samples.Client.Model.Providers.Fake
+namespace LogoUI.Samples.Client.Providers.Fake
 {
     class FakeComplianceProvider : FakeProviderBase<ComplianceProviderBuilder,IComplianceProvider>, IComplianceProvider
     {
